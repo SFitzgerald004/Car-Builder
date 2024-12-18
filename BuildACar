@@ -8,8 +8,6 @@ public class BuildACar
 	
 	public static void main(String[] args) 
 	{
-		
-		
 		System.out.println("Welcome! Here you are able to build your own car!");
 		System.out.println("What kind of chassis would you like? Truck Frame or Car Frame?");
 		
