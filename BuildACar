@@ -1,0 +1,19 @@
+package buildACar;
+
+import java.util.Scanner;
+public class BuildACar 
+{
+
+	public Scanner userInput = new Scanner(System.in);
+	
+	public static void main(String[] args) 
+	{
+		
+		
+		System.out.println("Welcome! Here you are able to build your own car!");
+		System.out.println("What kind of chassis would you like? Truck Frame or Car Frame?");
+		
+		Car engine = new Car();
+		System.out.println(engine);
+	}
+}
